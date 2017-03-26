@@ -33,7 +33,7 @@ const styles = {
 };
 
 // Make the component avialable to other parts of the app
-export default Header;
+export { Header };
 
 // Flex Box styling
 // justifyContent: adjust vertically
