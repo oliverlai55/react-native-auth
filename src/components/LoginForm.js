@@ -23,7 +23,7 @@ class LoginForm extends Component {
   }
 
   onLoginFail() {
-    this.setState({ error: 'Authenticaion Failed.', loading: false })
+    this.setState({ error: 'Authenticaion Failed.', loading: false });
   }
 
   onLoginSuccess() {
@@ -37,7 +37,7 @@ class LoginForm extends Component {
 
   renderButton() {
     if (this.state.loading) {
-      return <Spinner size="small" />
+      return <Spinner size="small" />;
     }
 
     return (
